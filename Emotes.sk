@@ -1,0 +1,3 @@
+command /shrug:
+	trigger:
+		make player say "¯\_(ツ)_/¯"
