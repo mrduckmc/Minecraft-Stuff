@@ -1,0 +1,15 @@
+# This script is made by WhenUHackUNoob.
+#
+# You can view all scripts by me at https://github.com/WhenUHackUNoob/Minecraft-Stuff
+#
+# Please do not remove these credits nor claim this as your own.
+
+on first join:
+    brodcast "&b&lFIRST JOIN &8>> &bPlease welcome &a%player% &bto the server!"
+    send "&bHello &a%player%&b! %nl% %nl% &bThank you for joining our server for the first time! Please use the items in your hotbar below to play."
+
+on join:
+    broadcast "&b&lJOIN &8>> &bWelcome back, &a%player%&b."
+    set slot 2 of player to compass named "&aMinigames" to do nothing # You can make players execute commands with "to close then run [execute player command "/hello"]"
+    set slot 5 of player to player's skull named "&aYour profile" to do nothing # You can make players execute commands with "to close then run [execute player command "/hello"]"
+    set slot 8 of player to shiny nether star named "&aCosmetics" to do nothing

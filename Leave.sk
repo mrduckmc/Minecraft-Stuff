@@ -1,0 +1,8 @@
+# This script is made by WhenUHackUNoob.
+#
+# You can view all scripts by me at https://github.com/WhenUHackUNoob/Minecraft-Stuff
+#
+# Please do not remove these credits nor claim this as your own.
+
+on quit:
+    broadcast "&b&lLEAVE &8>> &a%player% &bleft the server :("
