@@ -1,3 +1,11 @@
 command /shrug:
 	trigger:
 		make player say "¯\_(ツ)_/¯"
+		
+command /tableflip:
+	trigger:
+		make player say "(╯°□°）╯︵ ┻━┻"
+
+command /unflip:
+	trigger:
+		make player say "┬─┬ ノ( ゜-゜ノ)"
