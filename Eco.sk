@@ -31,4 +31,4 @@ command /eco [<text>] [<offline player>] [<number>]
                 if arg-3 is set:
                     add arg-3 to {Eco::Balance::%arg-2's uuid%}
                     send "{@prefix} &a$%arg-3% has been added to %arg-2%'s balance."
-                    send "{@prefix} &a$%arg-3% has been added to your balance." to arg-2
+                    send "{@prefix} &a$%arg-3% has been added to your balance!" to arg-2
